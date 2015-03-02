@@ -10,7 +10,7 @@
 
      <style type="text/css">
         * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 1.5em; background: url(images/noise.jpg); }
         .clear { clear: both; }
         #page-wrap { width: 80%; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
@@ -27,11 +27,12 @@
         dd { width: 75%; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; }
         @media only screen and (max-device-width : 768px), only screen and (max-width : 768px) {
+            #page-wrap {width: 100%; padding: 0 2em; }
             #pic { width: 33%; }
             #objective { width: 100%; float: none; }
             h2 span { display: block; position: relative; }
-            dt { float: none; width: 100%; text-align: left; border-right: none; border-bottom: 1px solid #999; height: auto; padding: 0; line-height: 2em; }
-            dd { width: 90%; float: none;margin: 1em auto; }
+            dt { float: none; width: 100%; text-align: left; border-right: none; border-bottom: 1px solid #999; height: auto; padding: 1em 0 0.5em; }
+            dd { width: 90%; float: none; margin: 2em auto; }
         }
      </style>
 </head>
