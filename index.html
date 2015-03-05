@@ -9,32 +9,37 @@
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
      <meta name="viewport" content="initial-scale=1.0">
 
-     <title>One Page Resume</title>
+     <title>Avi Schwab | Web Professional</title>
 
      <style type="text/css">
         * { margin: 0; padding: 0; }
         body { font: 16px Helvetica, Sans-Serif; line-height: 1.5em; background: url(images/noise.jpg); }
         .clear { clear: both; }
         #page-wrap { width: 80%; margin: 40px auto 60px; }
-        #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 1em 0; padding: 0 0 1em 0; font-size: 2.625em; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-        h2 { font-size: 1.25em; margin: 0 0 6px 0; position: relative; }
+        #pic { max-width: 30%; float: right; margin: -30px 0 0 0; transform: rotate(-3deg); padding: 5px; border: 1px solid #999; box-shadow: 2px 3px 10px rgba(0,0,0,0.5); background: white; }
+        h1 { margin: 0 0 1em 0; padding: 0 0 1em 0; font-size: 2.625em; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; line-height: 1em; }
+        h2 { font-size: 1.25em; position: relative; margin-top: 1em; }
+        h2:first-child { margin-top: 0; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: .8em; color: #999; font-weight: normal; }
+        h3 { font: 1em Georgia, Serif; font-style: italic; color: #999; font-weight: normal; text-align: right; }
+        h2 ~ p, h2 ~ ul {margin-top: 12px;}
         p { margin: 0 0 1em 0; }
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
+        ul { margin: 0 0 1em 17px; }
+        ul ul { margin-bottom: 0.25em; }
         #objective { width: 62.5%; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
         dt { font-style: italic; font-weight: bold; font-size: 1.125em; text-align: right; padding: 0 3% 0 0; width: 18.75%; float: left; height: 100px; border-right: 1px solid #999;  }
         dd { width: 75%; float: right; }
-        dd.clear { float: none; margin: 0; height: 15px; }
+        .clear { float: none; margin: 0; height: 15px; }
+        #skills {}
         @media only screen and (max-device-width : 768px), only screen and (max-width : 768px) {
             #page-wrap {width: 100%; padding: 0 2em; }
             #pic { width: 33%; }
             #objective { width: 100%; float: none; }
             h2 span { display: block; position: relative; }
-            dt { float: none; width: 100%; text-align: left; border-right: none; border-bottom: 1px solid #999; height: auto; padding: 1em 0 0.5em; }
+            dt { float: none; width: 100%; text-align: left; border-right: none; border-bottom: 1px solid #999; height: auto; padding: 0 0 0.5em; }
             dd { width: 90%; float: none; margin: 2em auto; }
         }
      </style>
@@ -44,26 +49,20 @@
 
     <div id="page-wrap">
     
-        <img src="images/cthulu.png" alt="Photo of Cthulu" id="pic" />
+        <img src="images/avi.jpg" alt="Photo of Avi" id="pic" />
     
         <div id="contact-info" class="vcard">
-        
-            <!-- Microformats! -->
-        
-            <h1 class="fn">C'thulhu</h1>
+                
+            <h1 class="fn">Avi Schwab</h1>
         
             <p>
-                Cell: <span class="tel">555-666-7777</span><br />
-                Email: <a class="email" href="mailto:greatoldone@lovecraft.com">greatoldone@lovecraft.com</a>
+                <a class="email" href="mailto:froboy@gmail.com">froboy@gmail.com</a>
             </p>
         </div>
                 
         <div id="objective">
             <p>
-                I am an outgoing and energetic (ask anybody) young professional, seeking a 
-                career that fits my professional skills, personality, and murderous tendencies. 
-                My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. 
-                I can bring world domination to your organization. 
+                A passionate and driven web professional in search of a like-minded work environment. I strive for the best in all of my work, and attempt to surround myself with others who are better/faster/stronger than I—both in the workplace and the community—in order to keep up with the ever-moving target we call “the Internet.” 
             </p>
         </div>
         
@@ -72,50 +71,110 @@
         <dl>
             <dd class="clear"></dd>
             
-            <dt>Education</dt>
-            <dd>
-                <h2>Withering Madness University - Planet Vhoorl</h2>
-                <p><strong>Major:</strong> Public Relations<br />
-                   <strong>Minor:</strong> Scale Tending</p>
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Skills</dt>
-            <dd>
-                <h2>Office skills</h2>
-                <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
-                
-                <h2>Computer skills</h2>
-                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
+            <dt>Key Skills</dt>
+            <dd id="skills">
+                <ul>
+                    <li>Sublime Text (and extensions)</li>
+                    <li>Drupal: Drush, custom module development, site building, multisite management</li>
+                    <li>LAMP stack</li>
+                    <li>Project management: Basecamp, JIRA</li>
+                    <li>Analytics: Google/Crazyegg</li>
+                    <li>Code repositories: Git, SVN, &amp; Bitbucket</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>CSS preprocessing: LESS, Compass</li>
+                    <li>Adobe Creative Suite</li>
+                    <li>Mac &amp; Windows desktop and server administration</li>
+                </ul>
+
             </dd>
             
             <dd class="clear"></dd>
             
             <dt>Experience</dt>
             <dd>
-                <h2>Doomsday Cult <span>Leader/Overlord - Baton Rogue, LA - 1926-2010</span></h2>
+                <h2>University of Chicago: College IT</h2>
+                <h3>Web Project Manager&mdash;July 2012 to present</h3>
+                <h3>Web Project Coordinator/College Support Specialist&mdash;July 2007 to July 2012</h3>
+
                 <ul>
-                    <li>Inspired and won highest peasant death competition among servants</li>
-                    <li>Helped coordinate managers to grow cult following</li>
-                    <li>Provided untimely deaths to all who opposed</li>
+                    <li>Plan, design, implement, maintain, and redesign web properties for College departments using web standards, responsive design, and accessible technologies.
+                    <ul>
+                        <li><a href="http://college.uchicago.edu">college.uchicago.edu</a>&mdash;(2009) Created content strategy to transition from static HTML to content-managed platform, built Drupal 6 site to integrate with contractor-developed Zen subtheme, hand-migrated content via Jumpchart. (2014) Managed full-time developer/designer to develop new responsive Omega-based theme using SASS/Compass, conducted student and staff interviews to better understand user base, built D7 site heavily leveraging Views and Context modules, migrated 500+ nodes with Migrate, Feeds.</li>
+                        <li><a href="http://filmstudiescenter.uchicago.edu">filmstudiescenter.uchicago.edu</a>&mdash;(2009) Developed custom Zen subtheme based on contractor-developed Photoshop designs, built D6 site to manage 20+ yr event archive, integrated FileMaker film db with Drupal. (2013) Managed developer to transition site to mobile-first, Omega-based D7 theme.</li>
+                        <li><a href="http://filmstudiescenter.uchicago.edu">study-abroad.uchicago.edu</a>&mdash;(2010) Independently built Zen-based theme, custom module, and D6 site to transition heavily structured data from HTML site. (2014) Migrated to D7, relying heavily on Migrate and Feeds modules.</li>
+                    </ul>
+                    </li>
+                    <li>Maintain dev/prod Drupal 7 multisite environment with 15+ sites for 2+ developers.</li>
+                    <li>Develop content strategies, train and assist content managers for over 30 web sites and associated social media outlets.</li>
+                    <li>Manage one FTE and 1-2 student workers to assist with above tasks.</li>
+                    <li>Manage 3-5 student Media Editors to plan and deliver original content for web and social media through weekly meetings and one-on-one work.</li>
+                    <li>Serve as primary desktop support for College Advisors, Deans, and faculty.</li>
                 </ul>
-                
-                <h2>The Watering Hole <span>Bartender/Server - Milwaukee, WI - 2009</span></h2>
+
+                <h2>University of Chicago: College Housing</h2>
+                <h3>Resident Head, Vincent House&mdash;September 2007 to June 2011</h3>
+
+                <p>Served as informal counselors and advisors to 45 students. Developed a variety of intellectual and social activities to create strong communities in our house and hall.</p>
+
+                <h2>International House at the University of Chicago</h2>
+                <h3>Senior Coordinator of Technology&mdash;July 2005 to July 2007</h3>
+
                 <ul>
-                    <li>Worked on grass-roots promotional campaigns</li>
-                    <li>Reduced theft and property damage percentages</li>
-                    <li>Janitorial work, Laundry</li>
-                </ul> 
+                    <li>Redesigned web site to provide in-depth content through weekly updates including calendars, newsletters, and event listings (ihouse.uchicago.edu).</li>
+                    <li>Maintained and updated computer labs and printers for use by 200-500 residents.</li>
+                </ul>
+
+                <h2>Istria Caf&eacute;</h2>
+                <h3>Barista&mdash;July 2005 to April 2006</h3>
+
+                <p>Created hand-crafted espresso drinks, coffee, gelati, and sandwiches while providing excellent customer service in an independent coffee house environment.</p>
+
+                <h2>United States Peace Corps, Tanzania</h2>
+                <h3>Volunteer, Secondary School Education Project&mdash;Sept 2003 to Jan 2005</h3>
+
+                <ul>
+                    <li>Participated in three months of intensive language, cultural, and technical training designed to assist with cultural integration.</li>
+                    <li>Taught basic computer literacy and theory to 200 middle school students with 12 hr/week of instruction, assisting over 100 to become the first students in the school to achieve competence in the national Computer Studies syllabus.&nbsp;</li>
+                    <li>Developed and led seminars to educate 20 teachers in 2-week, 40-hour courses on the advantages and use of computer resources in the classroom.</li>
+                </ul>
+            </dd>
+
+            <dd class="clear"></dd>
+            
+            <dt>Community<wbr>/Volunteer Involvement</dt>
+            <dd>
+                <ul>
+                    <li><strong>MidCamp</strong> (Midwest Regional Drupal Camp)&mdash;founding co-organizer, speaker (<a href="http://2014.midcamp.org/session/how-rtfm-m-entire-internet">2014</a>, 2015)</li>
+                    <li><strong>DrupalCamp Chicago</strong>&mdash;<a href="https://2012.drupalcampchicago.org/sessions/drupal-uchicago-edu">speaker (2012)</a></li>
+                    <li><strong>DrupalCon</strong>&mdash;volunteer, <a href="http://edusummitdrupalconatx.drupalgardens.com/content/drupal-uchicago-edu">BoF organizer</a></li>
+                    <li><strong>Drupal@UChicago</strong>, <strong>UChicago Web Community</strong>&mdash;co-founder</li>
+                    <li><strong><a href="http://62garden.com">62nd &amp; Dorchester Community Garden</a></strong>&mdash;co-founder, committee member (2010-14)</li>
+                    <li><strong>Delta Upsilon Chicago Alumni Association</strong>&mdash;President (2011-present)</li>
+                    <li><strong><a href="http://twitter.com/uchinomgo">UchiNOMgo</a></strong>&mdash;founder (2011-present)</li>
+                </ul>
             </dd>
             
             <dd class="clear"></dd>
-            
-            <dt>Hobbies</dt>
-            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
+
+            <dt>Education</dt>
+            <dd>
+                <p>University of Chicago Graham School—<strong>Negotiation and Dispute Resolution</strong>, 2012; <strong>Mapping Processes</strong>, 2010</p>
+                <p>University of Chicago—<strong>S.B. Computer Science, 2003</strong></p>
+            </dd>
             
             <dd class="clear"></dd>
+
+            <dt>Of Note</dt>
+            <dd>
+                <ul>
+                    <li>Photography published in <em>The Core,</em> <em>College Newsletter</em>, <a href="https://avischwab.contently.com/">campus, &amp; other publications</a>.</li>
+                    <li>Awarded Boy Scouts of America Eagle Scout Rank.</li>
+                    <li>University of Chicago Dean's List</li>
+                </ul>
+            </dd>
             
+            <dd class="clear"></dd>
+
             <dt>References</dt>
             <dd>Available on request</dd>
             
