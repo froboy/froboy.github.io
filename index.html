@@ -34,6 +34,11 @@
         dd { width: 75%; float: right; }
         .clear { float: none; margin: 0; height: 15px; }
         .attribution { font-size: .8em; color: #666; text-align: right; }
+        .hint { color: #ddd; }
+        .encoded {display: none;}
+        .konami li.encoded {display: list-item;}
+        .konami p.encoded {display: block;}
+        .konami #pic { padding: 0; box-shadow: none; border: 0; background: none; }
         @media only screen and (max-device-width : 768px), only screen and (max-width : 768px) {
             #page-wrap {width: calc(100% - 4em); padding: 0 2em; }
             #pic { width: 33%; }
@@ -43,6 +48,10 @@
             dd { width: 90%; float: none; margin: 2em auto; }
         }
      </style>
+     <script type="text/javascript">/* via http://bit.ly/1wp1Ldn */ var k=function(){"use strict";var t,e=[38,38,40,40,37,39,37,39,66,65],n={},i={current:0,timeoutId:0},r=function(t,e){t.call(this,e),e.current=0},o=function(o){if(window.clearTimeout(i.timeoutId),o.keyCode===e[i.current])n.correct&&n.correct.call(this,i),i.current===e.length-1?t.call(this,i):i.current+=1,n.timeout&&(i.timeoutId=window.setTimeout(r,n.timelimit,n.timeout,i));else{if(o.keyCode===e[1]&&2===i.current)return;n.incorrect&&n.incorrect.call(this,i),i.current=0}},c=function(e,i){return t=e,i=i||{},n={timelimit:i.timelimit||1e3,correct:i.correct||null,incorrect:i.incorrect||null,timeout:i.timeout||null},window.addEventListener?window.addEventListener("keyup",o):window.attachEvent&&window.attachEvent("onkeyup",o),{remove:function(){window.removeEventListener?window.removeEventListener("keyup",o):window.detachEvent&&window.detachEvent("onkeyup",o)}}};return c}();
+        /* sure, I could use jQuery, buy why use an entire library when I don't have to. */
+        var kCode = k(function() {window.scrollTo(0,0); document.body.className+=' konami'; document.getElementById("pic").src="./images/cthulu.png";});
+     </script>
 </head>
 
 <body>
@@ -74,6 +83,7 @@
             <dt>Key Skills</dt>
             <dd>
                 <ul>
+                    <li class="encoded">Has 30 lives</li>
                     <li>Drupal: Drush, custom module development, site building, multisite management</li>
                     <li>LAMP stack</li>
                     <li>Project management: Basecamp, JIRA</li>
@@ -84,6 +94,7 @@
                     <li>CSS preprocessing: LESS, Compass</li>
                     <li>Adobe Creative Suite</li>
                     <li>Mac &amp; Windows desktop and server administration</li>
+
                 </ul>
 
             </dd>
@@ -184,7 +195,7 @@
         
         <div class="clear"></div>
     
-        <p class="attribution">"One Page Résumé" originally <a target="_blank" href="https://css-tricks.com/one-page-resume-site/">by Chris Coyier for CSS Tricks</a>, modified and made responsive by yours truly.</p>
+        <p class="attribution">"One Page Résumé" originally <a target="_blank" href="https://css-tricks.com/one-page-resume-site/">by Chris Coyier for CSS Tricks</a>, modified and made responsive by yours truly. <span class="hint">↑↑↓↓←→←→ba</span></p>
     </div>
 
 </body>
