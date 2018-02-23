@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/froboy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://froboy.org
+  * I am froboy (https://keybase.io/froboy) on keybase.
+  * I have a public key ASDX-zKr-ddEn8isbj0vDzIUyfvE5NLg8EHQ_NyoFG4-4wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010b314b661d616486f644bd19836159dc69e2acf1bdf821d6acfe816c07ed9dce0a",
+      "host": "keybase.io",
+      "kid": "0120d7fb32abf9d7449fc8ac6e3d2f0f3214c9fbc4e4d2e0f041d0fcdca8146e3ee30a",
+      "uid": "e858347dd65e65ff934be50dd4caad00",
+      "username": "froboy"
+    },
+    "merkle_root": {
+      "ctime": 1519355640,
+      "hash": "3e39f2178c4b363421e778e5c1f1ee103429881f8e5b1fba6cdcb3832b9806886fe34663be73e668b3e40d3e0e633cc3ba156351bb4b63edbc9dc4383ba8f27f",
+      "hash_meta": "29e3bcbbb8ef7cf14042ee408db35f1c66d6afcf0d5e821a594f246c5216f0d1",
+      "seqno": 2141100
+    },
+    "service": {
+      "hostname": "froboy.org",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.41"
+  },
+  "ctime": 1519355663,
+  "expire_in": 504576000,
+  "prev": "ac2eac57514da96d70588889c6ebeed97079ea5542ef661d53c415ca100354ca",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg1/syq/nXRJ/IrG49Lw8yFMn7xOTS4PBB0PzcqBRuPuMKp3BheWxvYWTFA0B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMGIzMTRiNjYxZDYxNjQ4NmY2NDRiZDE5ODM2MTU5ZGM2OWUyYWNmMWJkZjgyMWQ2YWNmZTgxNmMwN2VkOWRjZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDdmYjMyYWJmOWQ3NDQ5ZmM4YWM2ZTNkMmYwZjMyMTRjOWZiYzRlNGQyZTBmMDQxZDBmY2RjYTgxNDZlM2VlMzBhIiwidWlkIjoiZTg1ODM0N2RkNjVlNjVmZjkzNGJlNTBkZDRjYWFkMDAiLCJ1c2VybmFtZSI6ImZyb2JveSJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxOTM1NTY0MCwiaGFzaCI6IjNlMzlmMjE3OGM0YjM2MzQyMWU3NzhlNWMxZjFlZTEwMzQyOTg4MWY4ZTViMWZiYTZjZGNiMzgzMmI5ODA2ODg2ZmUzNDY2M2JlNzNlNjY4YjNlNDBkM2UwZTYzM2NjM2JhMTU2MzUxYmI0YjYzZWRiYzlkYzQzODNiYThmMjdmIiwiaGFzaF9tZXRhIjoiMjllM2JjYmJiOGVmN2NmMTQwNDJlZTQwOGRiMzVmMWM2NmQ2YWZjZjBkNWU4MjFhNTk0ZjI0NmM1MjE2ZjBkMSIsInNlcW5vIjoyMTQxMTAwfSwic2VydmljZSI6eyJob3N0bmFtZSI6ImZyb2JveS5vcmciLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjQxIn0sImN0aW1lIjoxNTE5MzU1NjYzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImFjMmVhYzU3NTE0ZGE5NmQ3MDU4ODg4OWM2ZWJlZWQ5NzA3OWVhNTU0MmVmNjYxZDUzYzQxNWNhMTAwMzU0Y2EiLCJzZXFubyI6MTQsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RARxpPWD81U4MlOObFRY17kPJ27oz73eLvUtZ7u+f7BmHo0P71WDEg0ZugWeL2jEoANe3VE7dUiJOdBySvnRgDD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICUVew0D0MP5C2M9MC9FvvMQ43DDXwErxkv9w42Nj1V4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/froboy
+
+==================================================================
