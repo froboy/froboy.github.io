@@ -48,6 +48,10 @@
             dt { float: none; width: 100%; text-align: left; border-right: none; border-bottom: 1px solid #999; height: auto; padding: 0 0 0.5em; }
             dd { width: 90%; float: none; margin: 2em auto; }
         }
+        @media only print {
+            #pic, .konami, .attribution { display: none; }
+            #objective { width: 100%; }
+        }
      </style>
      <script type="text/javascript">/* via http://bit.ly/1wp1Ldn */ var k=function(){"use strict";var t,e=[38,38,40,40,37,39,37,39,66,65],n={},i={current:0,timeoutId:0},r=function(t,e){t.call(this,e),e.current=0},o=function(o){if(window.clearTimeout(i.timeoutId),o.keyCode===e[i.current])n.correct&&n.correct.call(this,i),i.current===e.length-1?t.call(this,i):i.current+=1,n.timeout&&(i.timeoutId=window.setTimeout(r,n.timelimit,n.timeout,i));else{if(o.keyCode===e[1]&&2===i.current)return;n.incorrect&&n.incorrect.call(this,i),i.current=0}},c=function(e,i){return t=e,i=i||{},n={timelimit:i.timelimit||1e3,correct:i.correct||null,incorrect:i.incorrect||null,timeout:i.timeout||null},window.addEventListener?window.addEventListener("keyup",o):window.attachEvent&&window.attachEvent("onkeyup",o),{remove:function(){window.removeEventListener?window.removeEventListener("keyup",o):window.detachEvent&&window.detachEvent("onkeyup",o)}}};return c}();
         /* sure, I could use jQuery, buy why use an entire library when I don't have to. */
