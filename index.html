@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 
 <!-- Initially taken from https://css-tricks.com/one-page-resume-site/ and then formatted to fit this screen. \m/ -->
 
@@ -8,6 +7,7 @@
 <head>
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
      <meta name="viewport" content="initial-scale=1.0">
+     <meta name="description" content="The personal website and resumé of Avi Schwab—freelance Drupal developer and community organizer based in Chicago.">
 
      <title>Avi Schwab | Internet Maker</title>
 
@@ -36,9 +36,6 @@
         .attribution { font-size: .8em; color: #666; text-align: right; }
         .hint { color: #ddd; }
         .encoded {display: none;}
-        .konami li.encoded {display: list-item;}
-        .konami p.encoded {display: block;}
-        .konami #pic { padding: 0; box-shadow: none; border: 0; background: none; }
         .strike {text-decoration: line-through;}
         @media only screen and (max-device-width : 768px), only screen and (max-width : 768px) {
             #page-wrap {width: calc(100% - 4em); padding: 0 2em; }
@@ -49,14 +46,10 @@
             dd { width: 90%; float: none; margin: 2em auto; }
         }
         @media only print {
-            #pic, .konami, .attribution { display: none; }
+            #pic, .attribution { display: none; }
             #objective { width: 100%; }
         }
      </style>
-     <script type="text/javascript">/* via http://bit.ly/1wp1Ldn */ var k=function(){"use strict";var t,e=[38,38,40,40,37,39,37,39,66,65],n={},i={current:0,timeoutId:0},r=function(t,e){t.call(this,e),e.current=0},o=function(o){if(window.clearTimeout(i.timeoutId),o.keyCode===e[i.current])n.correct&&n.correct.call(this,i),i.current===e.length-1?t.call(this,i):i.current+=1,n.timeout&&(i.timeoutId=window.setTimeout(r,n.timelimit,n.timeout,i));else{if(o.keyCode===e[1]&&2===i.current)return;n.incorrect&&n.incorrect.call(this,i),i.current=0}},c=function(e,i){return t=e,i=i||{},n={timelimit:i.timelimit||1e3,correct:i.correct||null,incorrect:i.incorrect||null,timeout:i.timeout||null},window.addEventListener?window.addEventListener("keyup",o):window.attachEvent&&window.attachEvent("onkeyup",o),{remove:function(){window.removeEventListener?window.removeEventListener("keyup",o):window.detachEvent&&window.detachEvent("onkeyup",o)}}};return c}();
-        /* sure, I could use jQuery, buy why use an entire library when I don't have to. */
-        var kCode = k(function() {window.scrollTo(0,0); document.body.className+=' konami'; document.getElementById("pic").src="./images/cthulu.png";});
-     </script>
 </head>
 
 <body>
@@ -96,7 +89,6 @@
             <dt id="skills">Key Skills</dt>
             <dd>
                 <ul>
-                    <li class="encoded">Has <span class='strike'>30</span> 29 lives</li>
                     <li>Drupal: Drush, custom module development, site building, multisite management, Feature-driven development & config management</li>
                     <li>Drupal-adjacent technologies: Varnish, Memcache, MySQL, Solr, NewRelic</li>
                     <li>Local development on the LAMP stack: Vagrant, Docksal, Lando, and other virtual environments</li>
@@ -137,7 +129,7 @@
                 <ul>
                      <li>Lead a team of 3-6 in supporting and enhancing properties for the American Medical Association, including personalization via Acquia Lift, retroactive style-guide development with Pattern Lab, and Drupal 8 site-building utilizing Layout Builder. (<a href="https://www.drupal.org/case-study/american-medical-association-topics-pages">Case Study</a>)</li>
                     <li>Architect and lead team of 1-2 in building a <a href="https://www.palantir.net/blog/federated-search-demo" target="_blank">reusable search application</a> for the University of Michigan Health System, utilizing React, Apache Solr, and Drupal custom code.</li>
-                     <li>Lead team of 4 in building a marketing and course search site for <a target="_blank" href="https://ntc.edu">Northcentral Technical College</a>, including significant D8 migration development and a integrated style guide leveraging <a href="http://emulsify.info/" target="_blank">Emulsify</a>.</li>
+                     <li>Lead team of 4 in building a marketing and course search site for <a href="https://ntc.edu">Northcentral Technical College</a>, including significant D8 migration development and a integrated style guide leveraging <a href="http://emulsify.info/" target="_blank">Emulsify</a>.</li>
                  </ul>
                      
                 
@@ -146,7 +138,7 @@
                 
                 <ul>
                      <li>Manage <a href="http://sites.uchicago.edu">UChicago Sites</a> templated website service for 300+ sites across campus and the Medical Center. Regularly run maintenance updates in conjunction with Acquia Remote Administration process, develop and deploy new features, manage support queue, and conduct client trainings.</li>
-                     <li>Lead rebuild of <a target="_blank" href="https://news.uchicago.edu">news.uchicago.edu</a>&mdash;(2016) With one other Front-End Dev and one Programmer, rebuilt major D6 property in Drupal 7. Restructured technical project management processes to facilitate multi-developer project using Trello and add-ons. Developed Features-driven development workflow utilizing pull requests and cross-developer QA. Engaged client in Agile-like process, continually iterating on changes throughout the development process. Ensured quality across >30,000 migrated content items. Set aggressive caching with Varnish and Expire/Acquia Purge modules and load tested against performance benchmarks with Blazemeter. Maintained developer morale despite aggressive demands from client and management. (<a href="https://www.drupal.org/case-study/uchicago-news">Case Study on Drupal.org</a>)</li>
+                     <li>Lead rebuild of <a href="https://news.uchicago.edu">news.uchicago.edu</a>&mdash;(2016) With one other Front-End Dev and one Programmer, rebuilt major D6 property in Drupal 7. Restructured technical project management processes to facilitate multi-developer project using Trello and add-ons. Developed Features-driven development workflow utilizing pull requests and cross-developer QA. Engaged client in Agile-like process, continually iterating on changes throughout the development process. Ensured quality across >30,000 migrated content items. Set aggressive caching with Varnish and Expire/Acquia Purge modules and load tested against performance benchmarks with Blazemeter. Maintained developer morale despite aggressive demands from client and management. (<a href="https://www.drupal.org/case-study/uchicago-news">Case Study on Drupal.org</a>)</li>
                 </ul>
                  
                 <h2>University of Chicago: College IT</h2>
@@ -156,9 +148,9 @@
                 <ul>
                     <li>Plan, design, implement, maintain, and redesign web properties for College departments using web standards, responsive design, and accessible technologies.
                     <ul>
-                        <li><a target="_blank" href="http://college.uchicago.edu">college.uchicago.edu</a>&mdash;(2009) Created content strategy to transition from static HTML to content-managed platform, built Drupal 6 site to integrate with contractor-developed Zen subtheme, hand-migrated content via Jumpchart. (2014) Managed full-time developer/designer to develop new responsive Omega-based theme using SASS/Compass, conducted student and staff interviews to better understand user base, built D7 site heavily leveraging Views and Context modules, migrated 500+ nodes with Migrate, Feeds.</li>
-                        <li><a target="_blank" href="http://filmstudiescenter.uchicago.edu">filmstudiescenter.uchicago.edu</a>&mdash;(2009) Developed custom Zen subtheme based on contractor-developed Photoshop designs, built D6 site to manage 20+ yr event archive, integrated FileMaker film db with Drupal. (2013) Managed developer to transition site to mobile-first, Omega-based D7 theme.</li>
-                        <li><a target="_blank" href="http://filmstudiescenter.uchicago.edu">study-abroad.uchicago.edu</a>&mdash;(2010) Independently built Zen-based theme, custom module, and D6 site to transition heavily structured data from HTML site. (2014) Migrated to D7, relying heavily on Migrate and Feeds modules.</li>
+                        <li><a href="http://college.uchicago.edu">college.uchicago.edu</a>&mdash;(2009) Created content strategy to transition from static HTML to content-managed platform, built Drupal 6 site to integrate with contractor-developed Zen subtheme, hand-migrated content via Jumpchart. (2014) Managed full-time developer/designer to develop new responsive Omega-based theme using SASS/Compass, conducted student and staff interviews to better understand user base, built D7 site heavily leveraging Views and Context modules, migrated 500+ nodes with Migrate, Feeds.</li>
+                        <li><a href="http://filmstudiescenter.uchicago.edu">filmstudiescenter.uchicago.edu</a>&mdash;(2009) Developed custom Zen subtheme based on contractor-developed Photoshop designs, built D6 site to manage 20+ yr event archive, integrated FileMaker film db with Drupal. (2013) Managed developer to transition site to mobile-first, Omega-based D7 theme.</li>
+                        <li><a href="http://study-abroad.uchicago.edu">study-abroad.uchicago.edu</a>&mdash;(2010) Independently built Zen-based theme, custom module, and D6 site to transition heavily structured data from HTML site. (2014) Migrated to D7, relying heavily on Migrate and Feeds modules.</li>
                     </ul>
                     </li>
                     <li>Maintain dev/prod Drupal 7 multisite environment with 15+ sites for 2+ developers.</li>
@@ -260,7 +252,7 @@
         
         <div class="clear"></div>
     
-        <p class="attribution">"One Page Résumé" originally <a href="https://css-tricks.com/one-page-resume-site/">by Chris Coyier for CSS Tricks</a>, modified and made responsive by yours truly. <span class="hint">↑↑↓↓←→←→ba</span></p>
+        <p class="attribution">"One Page Résumé" originally <a href="https://css-tricks.com/one-page-resume-site/">by Chris Coyier for CSS Tricks</a>, modified and made responsive by yours truly.</p>
     </div>
 
 </body>
